@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>User Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tribe.html">Explore Tribes</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="creator_studio.html">Studio</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Switch to Dark Mode</button> <!-- Light/Dark Mode Toggle -->
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>User Name</h2>
+            <p>Tribe Coins: <strong id="tribe-coins">100</strong></p>
+
+            <div class="coin-actions">
+                <h3>Earn Tribe Coins</h3>
+                <button id="earn-coins-btn">Earn 50 Coins</button>
+
+                <h3>Spend Tribe Coins</h3>
+                <input type="number" id="spend-coins-input" placeholder="Amount to spend">
+                <button id="spend-coins-btn">Spend Coins</button>
+            </div>
+
+            <h3>Your Posts</h3>
+            <article class="post">
+                <h3>Title of Post</h3>
+                <p>Posted in <a href="tribe.html">Tribe Name</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 DriveTribe Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

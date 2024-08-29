@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveTribe Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DriveTribe Clone</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tribe.html">Explore Tribes</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="creator_studio.html">Creator Studio</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="featured-posts">
+            <h2>Featured Posts</h2>
+            <div id="post-list"></div>
+            <div id="loading-featured" class="loading-spinner">Loading...</div>
+            <div id="error-featured" class="error-message"></div>
+            <button id="load-more-featured" class="load-more-button">Load More</button>
+        </section>
+        
+        <aside id="suggested-posts">
+            <h2>Suggested Posts</h2>
+            <div id="suggested-list"></div>
+            <div id="loading-suggested" class="loading-spinner">Loading...</div>
+            <div id="error-suggested" class="error-message"></div>
+            <button id="load-more-suggested" class="load-more-button">Load More</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 DriveTribe Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
